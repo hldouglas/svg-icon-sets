@@ -5,6 +5,33 @@ html {
 }
 
 span.btn {
-  border: 3px solid #fff;
+  border: 3px solid rgba(255, 255, 255, .66);
   background-color: transparent;
+}
+
+span.btn:hover {
+  border: 3px solid rgba(255, 255, 255, .66);
+  background-color: transparent;
+}
+
+div.unit:nth-child(1) {
+  border-bottom: 3px solid rgba(255, 255, 255, .33);
+}
+
+div.unit:nth-child(2) {
+  border-bottom: 3px solid rgba(255, 255, 255, .33);
+}
+
+@media only screen and (min-width: 60em) {
+
+  div.unit:nth-child(1) {
+    border-bottom: none;
+    border-right: 3px solid rgba(255, 255, 255, .33);
+  }
+
+  div.unit:nth-child(2) {
+    border-bottom: none;
+    border-right: 3px solid rgba(255, 255, 255, .33);
+  }
+
 }
